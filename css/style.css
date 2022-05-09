@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.entityWrapper{
+    padding: 10px;
+    background-color: #334;
+    margin: 5px;
+}
+.entityInfo{
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    font-size: 0.75rem;
+}
+.typeIcon{
+    width: 1.5rem;
+    padding-right: 5px;
+}
+.Person{color: crimson;}
+.Company{color: teal;}
